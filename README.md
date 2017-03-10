@@ -6,7 +6,10 @@
 First, install [Yeoman](http://yeoman.io) and generator-sass-kit using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
+//git clone this thing, then npm link it so npm installs it globally
+//yo and you should see sass-kit as an available generator.
+//it will create a sass folder and a css folder with some junk in it. check it out. 
+git clone https://github.com/jnguerrero/generator-sass-kit.git
 npm install -g generator-sass-kit
 ```
 
